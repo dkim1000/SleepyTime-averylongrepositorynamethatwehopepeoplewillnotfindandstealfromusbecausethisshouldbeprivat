@@ -1,4 +1,4 @@
-package SleepRight.com.sleepright;
+package alarm.com.sleepright;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;
