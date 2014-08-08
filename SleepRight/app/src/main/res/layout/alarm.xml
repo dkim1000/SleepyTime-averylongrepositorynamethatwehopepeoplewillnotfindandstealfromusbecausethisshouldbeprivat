@@ -39,6 +39,8 @@
             android:orientation="horizontal"
             android:weightSum="2">
             <ToggleButton
+                android:id="@+id/sleepAt"
+                android:onClick="sleepAtToggleButtonOnClick"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/sleep_time"
@@ -47,6 +49,8 @@
                 android:checked="true"
                 android:layout_weight="1" />
             <ToggleButton
+                android:id="@+id/wakeUpAt"
+                android:onClick="wakeUpAtToggleButtonOnClick"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/wake_up_time"

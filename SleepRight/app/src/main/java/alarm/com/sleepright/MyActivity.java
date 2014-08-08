@@ -1,7 +1,8 @@
 package alarm.com.sleepright;
 
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.ActionBarActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -32,5 +33,14 @@ public class MyActivity extends ActionBarActivity {
             return true;
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    private void sleepAtToggleButtonOnClick() {
+        Log.d("sleepAtToggleButton", "sleepAtClicked");
+
+    }
+
+    private void wakeUpAtToggleButtonOnClick() {
+        Log.d("wakeUpAtToggleButton", "wakeUpClicked");
     }
 }
