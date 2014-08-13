@@ -40,7 +40,6 @@
             android:weightSum="2">
             <ToggleButton
                 android:id="@+id/sleepAt"
-                android:onClick="sleepAtToggleButtonOnClick"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/sleep_time"
@@ -50,7 +49,6 @@
                 android:layout_weight="1" />
             <ToggleButton
                 android:id="@+id/wakeUpAt"
-                android:onClick="wakeUpAtToggleButtonOnClick"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:text="@string/wake_up_time"
@@ -67,4 +65,9 @@
             android:layout_height="150dp">
         </TimePicker>
     </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        </RelativeLayout>
 </LinearLayout>
