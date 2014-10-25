@@ -55,6 +55,7 @@
                 android:text="@string/wake_up_time"
                 android:textOff="@string/wake_up_time"
                 android:textOn="@string/wake_up_time"
+                android:onClick="wakeUpAtToggleButtonOnClick"
                 android:layout_weight="1"/>
         </LinearLayout>
     </RelativeLayout>
@@ -69,6 +70,64 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-
+        <RelativeLayout
+            android:id="@+id/timeId1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/Button1"
+                android:gravity="center_horizontal"
+                android:text="Time1"/>
+            <Button
+                android:id="@id/Button1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Button1"/>
         </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/timeId2"
+            android:layout_below="@id/timeId1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/Button2"
+                android:gravity="center"
+                android:text="Time2"/>
+            <Button
+                android:id="@id/Button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Button2"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/timeId3"
+            android:layout_below="@id/timeId2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/Button3"
+                android:gravity="center"
+                android:text="Time3"/>
+            <Button
+                android:id="@id/Button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="Button3"/>
+        </RelativeLayout>
+    </RelativeLayout>
 </LinearLayout>

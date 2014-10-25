@@ -38,10 +38,9 @@ public class MyActivity extends ActionBarActivity {
 
     public void sleepAtToggleButtonOnClick(View view) {
         Log.d("sleepAtToggleButton", "sleepAtClicked");
-
     }
 
-    private void wakeUpAtToggleButtonOnClick() {
+    public void wakeUpAtToggleButtonOnClick(View view) {
         Log.d("wakeUpAtToggleButton", "wakeUpClicked");
     }
 }
