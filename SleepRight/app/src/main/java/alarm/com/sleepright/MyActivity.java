@@ -5,6 +5,7 @@ import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class MyActivity extends ActionBarActivity {
@@ -35,7 +36,7 @@ public class MyActivity extends ActionBarActivity {
         return super.onOptionsItemSelected(item);
     }
 
-    private void sleepAtToggleButtonOnClick() {
+    public void sleepAtToggleButtonOnClick(View view) {
         Log.d("sleepAtToggleButton", "sleepAtClicked");
 
     }

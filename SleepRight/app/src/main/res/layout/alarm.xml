@@ -46,6 +46,7 @@
                 android:textOff="@string/sleep_time"
                 android:textOn="@string/sleep_time"
                 android:checked="true"
+                android:onClick="sleepAtToggleButtonOnClick"
                 android:layout_weight="1" />
             <ToggleButton
                 android:id="@+id/wakeUpAt"
